@@ -26,4 +26,4 @@ node index.js
 
 > Result 
 
-![Result](https://github.com/meneguite/domains-processor/documentation/images/expected-result.png)
+![Result](/documentation/images/expected-result.png)

@@ -20,8 +20,16 @@ getAllDomains(url, htmlFile, false)
 
 ### When running
 
+> To run the main system
+
 ```
 node index.js
+```
+
+> To verify a specific domains
+
+```
+node available.js registro.com.br bitcoin.com.br
 ```
 
 > Result 

@@ -1,7 +1,7 @@
-module.exports = function (domains, sufix) {
+module.exports = function (domains, contains) {
   return new Promise((resolve, reject) => {
     resolve(domains.filter((domain) => {
-      return domain.indexOf(sufix) !== -1
+      return domain.indexOf(contains) !== -1
     }));
   });
 }

@@ -1,4 +1,6 @@
-const processResult = require('./functions/processResult');
+const checkAvailabilityOnRegistroBr = require('./functions/checkAvailabilityOnRegistroBr');
 const domains = process.argv.slice(2) || [];
 
-processResult(domains);
+domains.forEach(async (domain) => {
+  await checkAvailabilityOnRegistroBr(domain, true);
+});
